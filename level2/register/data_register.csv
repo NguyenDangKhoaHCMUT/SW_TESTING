@@ -1,0 +1,41 @@
+test_id,firstname,lastname,email,telephone,password,confirm,newsletter,privacy,expected,verify_message
+BVA_01,,Nguyen,group7F1@gmail.com,+8412345678,1234,1234,No,True,failure,
+BVA_02,K,Nguyen,group7F22@gmail.com,+8412345678,1234,1234,No,True,success,Your Account Has Been Created!
+BVA_03,Kh,Nguyen,group7F3@gmail.com,+8412345678,1234,1234,No,True,success,Your Account Has Been Created!
+BVA_04,Khoaaaaaaaaaaaaaaaaaaaaaaaaaaaa,Nguyen,group7F4@gmail.com,+8412345678,1234,1234,No,True,success,Your Account Has Been Created!
+BVA_05,Khoaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,Nguyen,group7F5@gmail.com,+8412345678,1234,1234,No,True,success,Your Account Has Been Created!
+BVA_06,Khoaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,Nguyen,group7F6@gmail.com,+8412345678,1234,1234,No,True,failure,
+BVA_07,Khoa,Nguyen,group7T1@gmail.com,+8,1234,1234,No,True,failure,
+BVA_08,Khoa,Nguyen,group7T2@gmail.com,+84,1234,1234,No,True,success,Your Account Has Been Created!
+BVA_09,Khoa,Nguyen,group7T3@gmail.com,+843,1234,1234,No,True,success,Your Account Has Been Created!
+BVA_10,Khoa,Nguyen,group7T4@gmail.com,+888888888888888888888888888888,1234,1234,No,True,success,Your Account Has Been Created!
+BVA_11,Khoa,Nguyen,group7T5@gmail.com,+8888888888888888888888888888888,1234,1234,No,True,success,Your Account Has Been Created!
+BVA_12,Khoa,Nguyen,group7T6@gmail.com,+88888888888888888888888888888888,1234,1234,No,True,failure,
+BVA_13,Khoa,Nguyen,group7P1@gmail.com,+8412345678,123,123,No,True,failure,
+BVA_14,Khoa,Nguyen,group7P2@gmail.com,+8412345678,1234,1234,No,True,success,Your Account Has Been Created!
+BVA_15,Khoa,Nguyen,group7P3@gmail.com,+8412345678,12345,12345,No,True,success,Your Account Has Been Created!
+BVA_16,Khoa,Nguyen,group7P4@gmail.com,+8412345678,1111111111111111111,1111111111111111111,No,True,success,Your Account Has Been Created!
+BVA_17,Khoa,Nguyen,group7P5@gmail.com,+8412345678,11111111111111111111,11111111111111111111,No,True,success,Your Account Has Been Created!
+BVA_18,Khoa,Nguyen,group7P6@gmail.com,+8412345678,111111111111111111111,111111111111111111111,No,True,success,Your Account Has Been Created!
+ECP_01,,Nguyen,group7ECP01@gmail.com,+8412345678,1234,1234,No,True,failure,
+ECP_02,Khoa,Nguyen,group7ECP02@gmail.com,+8412345678,1234,1234,No,True,success,Your Account Has Been Created!
+ECP_03,Khoaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,Nguyen,group7ECP03@gmail.com,+8412345678,1234,1234,No,True,failure,
+ECP_04,Khoa,Nguyen,group7ECP04@gmail.com,aaa123,1234,1234,No,True,success,Your Account Has Been Created!
+ECP_05,Khoa,Nguyen,group7ECP05@gmail.com,+8,1234,1234,No,True,failure,
+ECP_06,Khoa,Nguyen,group7ECP06@gmail.com,+8412345678,1234,1234,No,True,success,Your Account Has Been Created!
+ECP_07,Khoa,Nguyen,group7ECP07@gmail.com,+88888888888888888888888888888888888888888888888888888888888888888888888,1234,1234,No,True,failure,
+ECP_08,Khoa,Nguyen,group7ECP08@gmail.com,+8412345678,,1234,No,True,failure,
+ECP_09,Khoa,Nguyen,group7ECP09@gmail.com,+8412345678,1234,1234,No,True,success,Your Account Has Been Created!
+ECP_10,Khoa,Nguyen,group7ECP10@gmail.com,+8412345678,111111111111111111111,111111111111111111111,No,True,success,Your Account Has Been Created!
+ECP_11,Khoa,Nguyen,group7ECP11@gmail.com,+8412345678,1234,1234,No,True,success,Your Account Has Been Created!
+ECP_12,Khoa,Nguyen,group7ECP12@gmail.com,+8412345678,1234,123,No,True,failure,
+ECP_13,Khoa,Nguyen,group7ECP13@gmail.com,+8412345678,1234,1234,No,True,success,Your Account Has Been Created!
+ECP_14,Khoa,Nguyen,group7ECP15@gmail.com,+8412345678,1234,1234,No,False,failure,
+ECP_15,Khoa,Nguyen,group7ECP16@gmail.com,+8412345678,1234,1234,No,True,success,Your Account Has Been Created!
+DT_01,Khoa,Nguyen,group7F3@gmail.com,+8412345678,1234,1234,No,True,failure,Warning: E-Mail Address is already registered!
+DT_02,,Nguyen,group7DT022@gmail.com,+8412345678,1234,1234,No,True,failure,
+DT_03,Khoa,Nguyen,group7DT03@gmail.com,+8412345678,1234,1234,No,True,success,Your Account Has Been Created!
+UC_01,Khoa,Nguyen,group7L4@gmail.com,+8412345678,1234,1234,No,True,success,Your Account Has Been Created!
+UC_02,Khoa,Nguyễn,group7F3@gmail.com,+8412345678,1234,1234,No,True,failure,Warning: E-Mail Address is already registered!
+UC_03,Khoa,Nguyen,group7UC03@gmail.com,+8412345678,1234,1234,Yes,True,success,Your Account Has Been Created!
+

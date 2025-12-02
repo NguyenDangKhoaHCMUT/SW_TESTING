@@ -1,0 +1,18 @@
+section,element_name,locator_type,locator_value,wait_type,description
+url,register_url,url,https://ecommerce-playground.lambdatest.io/index.php?route=account/register,,Register page URL
+url,success_url,url,https://ecommerce-playground.lambdatest.io/index.php?route=account/success,,Registration success URL
+url,logout_url,url,https://ecommerce-playground.lambdatest.io/index.php?route=account/logout,,Logout URL
+element,firstname_input,id,input-firstname,presence,First Name input field
+element,lastname_input,id,input-lastname,presence,Last Name input field
+element,email_input,id,input-email,presence,E-Mail input field
+element,telephone_input,id,input-telephone,presence,Telephone input field
+element,password_input,id,input-password,presence,Password input field
+element,confirm_input,id,input-confirm,presence,Password Confirm input field
+element,newsletter_label,xpath,//div[@id='content']/form/fieldset[3]/div/div/div/label,clickable,Newsletter Yes label
+element,privacy_label,xpath,//div[@id='content']/form/div/div/div/label,clickable,Privacy Policy checkbox label
+element,continue_button,xpath,//input[@value='Continue'],clickable,Continue button
+element,success_h1,xpath,//div[@id='content']/h1,presence,Success page main heading
+element,warning_alert,css,div.alert.alert-danger,presence,Top warning alert
+element,field_error_div,css,div.text-danger,presence,Field-level error messages
+*** End Patch】}"}}
+
