@@ -10,3 +10,6 @@
 9,abc,invalid,invalid,,PASS,
 10,++,invalid,invalid,,PASS,
 11,,invalid,invalid,,PASS,
+12,1000,success,success,Transaction successful,PASS,Transaction successful
+13,6000,failure,failure,Transaction Failed. You can not withdraw amount more than the balance.,PASS,Transaction Failed. You can not withdraw amount more than the balance.
+14,abc,invalid,invalid,,PASS,
