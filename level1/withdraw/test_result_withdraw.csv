@@ -1,0 +1,12 @@
+﻿Test_ID,Amount,Expected,Actual,Message,Status,Verify_Message
+1,0,failure,failure,,PASS,
+2,1,success,success,Transaction successful,PASS,Transaction successful
+3,2,success,success,Transaction successful,PASS,Transaction successful
+4,5095,success,success,Transaction successful,PASS,Transaction successful
+5,5096,success,success,Transaction successful,PASS,Transaction successful
+6,5097,failure,failure,Transaction Failed. You can not withdraw amount more than the balance.,PASS,Transaction Failed. You can not withdraw amount more than the balance.
+7,1000,success,success,Transaction successful,PASS,Transaction successful
+8,6000,failure,failure,Transaction Failed. You can not withdraw amount more than the balance.,PASS,Transaction Failed. You can not withdraw amount more than the balance.
+9,abc,invalid,invalid,,PASS,
+10,++,invalid,invalid,,PASS,
+11,,invalid,invalid,,PASS,

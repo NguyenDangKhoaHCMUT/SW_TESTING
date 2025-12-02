@@ -1,0 +1,12 @@
+amount,expected,verify_message
+0,failure,
+1,success,Transaction successful
+2,success,Transaction successful
+5095,success,Transaction successful
+5096,success,Transaction successful
+5097,failure,Transaction Failed. You can not withdraw amount more than the balance.
+1000,success,Transaction successful
+6000,failure,Transaction Failed. You can not withdraw amount more than the balance.
+abc,invalid,
+++,invalid,
+,invalid,

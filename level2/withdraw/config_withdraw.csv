@@ -1,0 +1,13 @@
+section,element_name,locator_type,locator_value,wait_type,description
+url,homepage_url,url,https://www.globalsqa.com/angularJs-protractor/BankingProject/,,Homepage URL
+url,account_page_url,url,https://www.globalsqa.com/angularJs-protractor/BankingProject/#/account,,Account page URL
+element,customer_login_button,xpath,"//button[contains(text(), 'Customer Login')]",clickable,Customer Login button
+element,user_select_dropdown,id,userSelect,presence,User selection dropdown
+element,login_button,xpath,"//button[contains(text(), 'Login')]",clickable,Login button
+element,deposit_tab,xpath,"//button[contains(text(), 'Deposit')]",clickable,Deposit tab button
+element,withdraw_tab,xpath,"(.//*[normalize-space(text()) and normalize-space(.)='Deposit'])[1]/following::button[1]",clickable,Withdrawl tab button
+element,amount_input,xpath,"//input[@type='number']",presence,Amount input field
+element,submit_button,xpath,"//button[@type='submit']",clickable,Submit button
+element,message_span,xpath,"(.//*[normalize-space(text()) and normalize-space(.)='Withdrawl'])[1]/following::span[1]",presence,Transaction message span
+element,balance_strong,xpath,"(.//*[normalize-space(text()) and normalize-space(.)='Please open an account with us.'])[1]/following::strong[2]",presence,Balance display element
+
