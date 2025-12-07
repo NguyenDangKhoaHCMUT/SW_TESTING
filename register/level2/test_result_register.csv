@@ -1,0 +1,40 @@
+﻿Test_ID,Firstname,Lastname,Email,Original_Email,Telephone,Expected,Actual,Message,Status,Verify_Message
+BVA_01,,Nguyen,group7F15tNZ6byGUD@gmail.com,group7F1@gmail.com,+8412345678,failure,failure,First Name must be between 1 and 32 characters!,PASS,
+BVA_02,K,Nguyen,group7F22WXg1rMJJKZ@gmail.com,group7F22@gmail.com,+8412345678,success,success,Your Account Has Been Created!,PASS,Your Account Has Been Created!
+BVA_03,Kh,Nguyen,group7F3MPj4m5rR1X@gmail.com,group7F3@gmail.com,+8412345678,success,success,Your Account Has Been Created!,PASS,Your Account Has Been Created!
+BVA_04,Khoaaaaaaaaaaaaaaaaaaaaaaaaaaaa,Nguyen,group7F4k7ta2lXHpV@gmail.com,group7F4@gmail.com,+8412345678,success,success,Your Account Has Been Created!,PASS,Your Account Has Been Created!
+BVA_05,Khoaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,Nguyen,group7F5QkZqKHMe3T@gmail.com,group7F5@gmail.com,+8412345678,success,success,Your Account Has Been Created!,PASS,Your Account Has Been Created!
+BVA_06,Khoaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,Nguyen,group7F6E6Shrt4oI9@gmail.com,group7F6@gmail.com,+8412345678,failure,failure,First Name must be between 1 and 32 characters!,PASS,
+BVA_07,Khoa,Nguyen,group7T11WE3Q6ST6i@gmail.com,group7T1@gmail.com,+8,failure,failure,Telephone must be between 3 and 32 characters!,PASS,
+BVA_08,Khoa,Nguyen,group7T26DPA2niiEy@gmail.com,group7T2@gmail.com,+84,success,success,Your Account Has Been Created!,PASS,Your Account Has Been Created!
+BVA_09,Khoa,Nguyen,group7T3SPBkgiWgxP@gmail.com,group7T3@gmail.com,+843,success,success,Your Account Has Been Created!,PASS,Your Account Has Been Created!
+BVA_10,Khoa,Nguyen,group7T4YEOB2shVPC@gmail.com,group7T4@gmail.com,+888888888888888888888888888888,success,success,Your Account Has Been Created!,PASS,Your Account Has Been Created!
+BVA_11,Khoa,Nguyen,group7T5xtlAMOMtFJ@gmail.com,group7T5@gmail.com,+8888888888888888888888888888888,success,success,Your Account Has Been Created!,PASS,Your Account Has Been Created!
+BVA_12,Khoa,Nguyen,group7T6BrPXQ7Ow5V@gmail.com,group7T6@gmail.com,+88888888888888888888888888888888,failure,failure,Telephone must be between 3 and 32 characters!,PASS,
+BVA_13,Khoa,Nguyen,group7P1W7Tb5wEXpe@gmail.com,group7P1@gmail.com,+8412345678,failure,failure,Password must be between 4 and 20 characters!,PASS,
+BVA_14,Khoa,Nguyen,group7P2fjwVMPpWy0@gmail.com,group7P2@gmail.com,+8412345678,success,success,Your Account Has Been Created!,PASS,Your Account Has Been Created!
+BVA_15,Khoa,Nguyen,group7P3q1HmIb26Oi@gmail.com,group7P3@gmail.com,+8412345678,success,success,Your Account Has Been Created!,PASS,Your Account Has Been Created!
+BVA_16,Khoa,Nguyen,group7P4Y2vKxwqZTq@gmail.com,group7P4@gmail.com,+8412345678,success,success,Your Account Has Been Created!,PASS,Your Account Has Been Created!
+BVA_17,Khoa,Nguyen,group7P5MVo8gAITk5@gmail.com,group7P5@gmail.com,+8412345678,success,success,Your Account Has Been Created!,PASS,Your Account Has Been Created!
+BVA_18,Khoa,Nguyen,group7P6sj6cRkVH0N@gmail.com,group7P6@gmail.com,+8412345678,success,success,Your Account Has Been Created!,PASS,Your Account Has Been Created!
+ECP_01,,Nguyen,group7ECP01csEqgCK7yt@gmail.com,group7ECP01@gmail.com,+8412345678,failure,failure,First Name must be between 1 and 32 characters!,PASS,
+ECP_02,Khoa,Nguyen,group7ECP02FpyxHHsvtg@gmail.com,group7ECP02@gmail.com,+8412345678,success,success,Your Account Has Been Created!,PASS,Your Account Has Been Created!
+ECP_03,Khoaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,Nguyen,group7ECP03zaskAtd6ln@gmail.com,group7ECP03@gmail.com,+8412345678,failure,failure,First Name must be between 1 and 32 characters!,PASS,
+ECP_04,Khoa,Nguyen,group7ECP04tyc4g3wZX4@gmail.com,group7ECP04@gmail.com,aaa123,success,success,Your Account Has Been Created!,PASS,Your Account Has Been Created!
+ECP_05,Khoa,Nguyen,group7ECP05VZQHUlnf17@gmail.com,group7ECP05@gmail.com,+8,failure,failure,Telephone must be between 3 and 32 characters!,PASS,
+ECP_06,Khoa,Nguyen,group7ECP06SgLknVzyYW@gmail.com,group7ECP06@gmail.com,+8412345678,success,success,Your Account Has Been Created!,PASS,Your Account Has Been Created!
+ECP_07,Khoa,Nguyen,group7ECP07v7SYSlg1hL@gmail.com,group7ECP07@gmail.com,+88888888888888888888888888888888888888888888888888888888888888888888888,failure,failure,Telephone must be between 3 and 32 characters!,PASS,
+ECP_08,Khoa,Nguyen,group7ECP08FHYozYNCyC@gmail.com,group7ECP08@gmail.com,+8412345678,failure,failure,Password must be between 4 and 20 characters!; Password confirmation does not match password!,PASS,
+ECP_09,Khoa,Nguyen,group7ECP09FJZvNL5Cmq@gmail.com,group7ECP09@gmail.com,+8412345678,success,success,Your Account Has Been Created!,PASS,Your Account Has Been Created!
+ECP_10,Khoa,Nguyen,group7ECP107zzpXJpaym@gmail.com,group7ECP10@gmail.com,+8412345678,success,success,Your Account Has Been Created!,PASS,Your Account Has Been Created!
+ECP_11,Khoa,Nguyen,group7ECP11EpUBDKT6Vn@gmail.com,group7ECP11@gmail.com,+8412345678,success,success,Your Account Has Been Created!,PASS,Your Account Has Been Created!
+ECP_12,Khoa,Nguyen,group7ECP12UfMeZMK3Jb@gmail.com,group7ECP12@gmail.com,+8412345678,failure,failure,Password confirmation does not match password!,PASS,
+ECP_13,Khoa,Nguyen,group7ECP13LWtt4XOrwd@gmail.com,group7ECP13@gmail.com,+8412345678,success,success,Your Account Has Been Created!,PASS,Your Account Has Been Created!
+ECP_14,Khoa,Nguyen,group7ECP15mURDpXo1SH@gmail.com,group7ECP15@gmail.com,+8412345678,failure,failure,Warning: You must agree to the Privacy Policy!,PASS,
+ECP_15,Khoa,Nguyen,group7ECP16M83tgzzgJW@gmail.com,group7ECP16@gmail.com,+8412345678,success,success,Your Account Has Been Created!,PASS,Your Account Has Been Created!
+DT_01,Khoa,Nguyen,group7F3@gmail.com,group7F3@gmail.com,+8412345678,failure,failure,Warning: E-Mail Address is already registered!,PASS,Warning: E-Mail Address is already registered!
+DT_02,,Nguyen,group7DT022FD3UqUiyBc@gmail.com,group7DT022@gmail.com,+8412345678,failure,failure,First Name must be between 1 and 32 characters!,PASS,
+DT_03,Khoa,Nguyen,group7DT03x2RrXKEtfg@gmail.com,group7DT03@gmail.com,+8412345678,success,success,Your Account Has Been Created!,PASS,Your Account Has Been Created!
+UC_01,Khoa,Nguyen,group7L408QA2yxZG9@gmail.com,group7L4@gmail.com,+8412345678,success,success,Your Account Has Been Created!,PASS,Your Account Has Been Created!
+UC_02,Khoa,Nguyễn,group7F3@gmail.com,group7F3@gmail.com,+8412345678,failure,failure,Warning: E-Mail Address is already registered!,PASS,Warning: E-Mail Address is already registered!
+UC_03,Khoa,Nguyen,group7UC039BzWjOCR5S@gmail.com,group7UC03@gmail.com,+8412345678,success,success,Your Account Has Been Created!,PASS,Your Account Has Been Created!

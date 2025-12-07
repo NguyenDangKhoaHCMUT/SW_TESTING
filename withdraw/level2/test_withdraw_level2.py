@@ -11,7 +11,7 @@ from selenium.webdriver.support.ui import WebDriverWait, Select
 
 # Add common directory to path
 script_dir = os.path.dirname(os.path.abspath(__file__))
-common_dir = os.path.join(os.path.dirname(script_dir), 'common')
+common_dir = os.path.join(os.path.dirname(os.path.dirname(script_dir)), 'common')
 sys.path.insert(0, common_dir)
 
 from config_manager import ConfigManager
